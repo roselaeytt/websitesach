@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 80%;
+    min-width: 800px;
+    max-width: 1500px;
+}
+
+.menu ul{
+    background-color: beige;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+.menu ul li a{
+    color:gray;
+    font-size: 14pt;
+    text-decoration: none;
+    padding: 15px 10px;
+    display: inline-block;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+}
+input{
+    min-width: 300px;
+    padding: 3px;
+}
+
+input[type=submit]{
+    margin-top: 10px;
+}
